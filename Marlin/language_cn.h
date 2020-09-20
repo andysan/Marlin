@@ -163,5 +163,5 @@
 #define MSG_DELTA_CALIBRATE_Y               "Calibrate Y"
 #define MSG_DELTA_CALIBRATE_Z               "Calibrate Z"
 #define MSG_DELTA_CALIBRATE_CENTER          "Calibrate Center"
-
+#define MSG_POWER_LOSS_RECOVERY             "\xa4\xa5\xf4\xf5\xca\xf3 ?"
 #endif // LANGUAGE_CN_H
