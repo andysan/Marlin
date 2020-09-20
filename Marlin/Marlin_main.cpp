@@ -5982,6 +5982,9 @@ inline void gcode_G92() {
 
         if (i != E_AXIS) {
           didXYZ = true;
+          if (i == Z_AXIS) {
+            axis_known_position[Z_AXIS] = true;
+          }
           #if HAS_POSITION_SHIFT
             position_shift[i] += v - p; // Offset the coordinate space
             update_software_endstops((AxisEnum)i);
